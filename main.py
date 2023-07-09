@@ -19,4 +19,4 @@ for i, files in enumerate(os.listdir(path)):
   latitude=(float)((((ns[0]*60)+ns[1])*60)+ns[2])/60/60
   longitude=(float)((((ew[0]*60)+ew[1])*60)+ew[2])/60/60
   df.loc[i,'Geo_Tag_URL']=str(latitude)+"°N"+" "+str(longitude)+"°E" 
-  df.to_csv("Submission.csv",index=False)
+  df.to_csv("submit.csv",index=False)
