@@ -1,0 +1,5 @@
+ultralytics
+Pillow
+torch
+numpy
+pandas
