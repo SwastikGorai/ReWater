@@ -1,6 +1,0 @@
-train: ./train
-val: ./val
-
-nc: 1
-
-names: ['plastic']
